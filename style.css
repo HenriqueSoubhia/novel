@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+
+body{
+    background-image: url("imagens/fundo.jpg");
+    background-size: cover;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+}
+
+.text-container{
+    width: 100%;
+    background: #ffffffa6;
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+}
+
+.text-container div{
+    padding: 5px 20px;
+}
+
+.btn-grid{
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: #fca2fc;
+    border: 1px solid #fc5efc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+    cursor: pointer;;
+}
+
+.btn:hover {
+    background-color: #fc5efc;
+    border-color: black;
+}
+
+.character-container{
+    width: 100%;
+    height: 100%;
+}
+
+.character-container img{
+    width: 30%;
+    position: absolute;
+}
+
+
+.character-end{
+    right: 0;
+}
+
+
+@keyframes treme {
+    
+}
